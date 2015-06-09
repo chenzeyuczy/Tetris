@@ -12,6 +12,9 @@ public:
 	CREATE_FUNC(HelloScene);
 
 	virtual bool init();
+	void addMenu();
+	void switchScene(Ref* pSender);
+	void exit(Ref* pSender);
 
 private:
 	Size visibleSize;
