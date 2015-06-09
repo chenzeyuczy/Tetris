@@ -26,3 +26,10 @@
 *.exe
 *.out
 *.app
+
+# Project files
+proj.*/
+cocos2d/
+
+# Temp files
+*.swp
